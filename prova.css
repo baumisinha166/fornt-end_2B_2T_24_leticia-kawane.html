@@ -67,7 +67,7 @@ h2 {
     flex: 1;
     max-width: 300px;
     margin-right: 20px;
-    border-radius: 50%; /* Formato circular */
+    border-radius: 100%; /* Formato circular */
     opacity: 0.9;
     transition: opacity 0.3s ease;
     border: 5px solid #fff; /* Adiciona uma borda branca à imagem */
