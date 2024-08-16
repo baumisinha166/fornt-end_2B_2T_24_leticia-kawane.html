@@ -55,22 +55,22 @@ h2 {
     text-align: center;
 }
 
+/* Centraliza a imagem e o texto */
 .content-wrapper {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
     justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
-/* Estilo da imagem com novo formato (circular) */
 .profile-img {
-    flex: 1;
     max-width: 300px;
-    margin-right: 20px;
-    border-radius: 100%; /* Formato circular */
+    border-radius: 50%; /* Formato circular */
     opacity: 0.9;
     transition: opacity 0.3s ease;
     border: 5px solid #fff; /* Adiciona uma borda branca à imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
 }
 
 .profile-img:hover {
@@ -78,17 +78,17 @@ h2 {
 }
 
 .text-content {
-    flex: 2;
     max-width: 600px;
 }
 
-/* Estilo do iframe */
+/* Centraliza o mapa e o vídeo */
 iframe {
     width: 100%;
     max-width: 600px;
     border: none;
-    margin-top: 20px;
+    margin: 20px auto; /* Adiciona espaço acima e abaixo, e centraliza */
     border-radius: 10px;
+    display: block; /* Necessário para centralizar o iframe */
 }
 
 /* Estilo do footer */
