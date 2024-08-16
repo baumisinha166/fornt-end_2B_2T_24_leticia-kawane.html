@@ -1,6 +1,6 @@
 /* Fonte e cor de fundo */
 body {
-    font-family:  "Gill Sans Extrabold", sans-serif;
+    font-family: 'Raleway', sans-serif;
     background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
     color: #333;
     margin: 0;
@@ -15,6 +15,20 @@ header {
     text-align: center;
 }
 
+/* Estilo do título e subtítulo com nova fonte */
+.header-content h1 {
+    font-family: 'Abril Fatface', cursive; /* Nova fonte para o título */
+    font-size: 3.5em;
+    margin: 10px 0 0;
+}
+
+.header-content p {
+    font-family: 'Lobster', cursive; /* Nova fonte para o subtítulo */
+    font-size: 1.5em;
+    margin: 5px 0 0;
+}
+
+/* Menu de navegação */
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,16 +42,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-}
-
-.header-content h1 {
-    font-size: 3em;
-    margin: 10px 0 0;
-}
-
-.header-content p {
-    font-size: 1.2em;
-    margin: 5px 0 0;
 }
 
 /* Estilo das seções */
@@ -58,13 +62,15 @@ h2 {
     flex-wrap: wrap;
 }
 
+/* Estilo da imagem com novo formato (circular) */
 .profile-img {
     flex: 1;
     max-width: 300px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 50%; /* Formato circular */
     opacity: 0.9;
     transition: opacity 0.3s ease;
+    border: 5px solid #fff; /* Adiciona uma borda branca à imagem */
 }
 
 .profile-img:hover {
